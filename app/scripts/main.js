@@ -72,7 +72,7 @@ function wraping_text(options){
 }
 
 function on_text_change(name){
-	var name = name || '高速公路好可怕'
+	var name = name || '蘇花公路改善路段好可怕'
 	var d = new Date()
 	var now = d.getFullYear() + '年' + (d.getMonth()+1) + '月' + d.getDate() + '日'
 	// debugger
@@ -82,7 +82,7 @@ function on_text_change(name){
 // `
 
 	var wording = '本人%NAME%願意簽署這份文件，因為蘇花公路改善路段實在太危險，現階段(%NOW%)不適合沒有路權的二輪車輛行駛。並且認為在不合法的情況下騎乘上去非常沒有素質。 \n'
-	wording += '倘若將來，蘇花公路改善路段開放所有摩托車行駛，本人%NAME%同意，絕對不在上敘道路使用摩托車，若違反的話，願意上傳自爆菊花影片到社群網站上，表示個人素質與爆菊花決心。
+	wording += '倘若將來，蘇花公路改善路段開放所有摩托車行駛，本人%NAME%同意，絕對不在上敘道路使用摩托車，若違反的話，願意上傳自爆菊花影片到社群網站上，表示個人素質與爆菊花決心。'
 。'
 
 	var replacements = {'%NAME%': name ,'%NOW%': now ,'%EVENT%':'20'},
